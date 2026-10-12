@@ -1,6 +1,7 @@
 name: 报告问题
 description: 告诉我们哪里没有按预期工作。
 title: "[问题] "
+labels: ["bug", "needs-triage"]
 body:
   - type: markdown
     attributes:

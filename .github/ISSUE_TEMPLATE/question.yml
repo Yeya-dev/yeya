@@ -1,6 +1,7 @@
 name: 使用咨询
 description: 询问页芽 Yeya 的功能或操作方法。
 title: "[咨询] "
+labels: ["question", "needs-triage"]
 body:
   - type: markdown
     attributes:
