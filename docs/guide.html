@@ -3,26 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="页芽 Yeya 开发版本的用户说明：从自己的书开始，了解阅读、批注、翻译、连续朗读与系统学习。">
+  <meta name="description" content="页芽 Yeya 使用说明：书籍导入、阅读外观、批注、AI 功能、双语阅读、听书、语音市场与学习计划。">
   <meta name="theme-color" content="#476d59">
   <title>用户说明 · 页芽 Yeya</title>
   <link rel="icon" href="assets/yeya-icon.png" type="image/png">
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/site.css?v=20261012-2">
+  <script src="assets/site.js?v=20261012-2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
-  <header class="site-header wrap"><a class="brand" href="index.html" aria-label="页芽 Yeya 首页"><img src="assets/yeya-logo.png" width="42" height="42" alt=""><span>页芽 <small>Yeya</small></span></a><nav aria-label="主导航"><a href="index.html">产品介绍</a><a href="guide.html" aria-current="page">用户说明</a><a href="feedback.html">问题反馈</a><a href="https://github.com/Yeya-dev/yeya">GitHub <span aria-hidden="true">↗</span></a></nav></header>
+  <header class="site-header"><div class="header-inner wrap"><a class="brand" href="index.html" aria-label="页芽 Yeya 首页"><img src="assets/yeya-logo.png" width="40" height="40" alt=""><span>页芽 <small>Yeya</small></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span>菜单</span><span class="menu-lines" aria-hidden="true"></span></button><nav id="main-nav" aria-label="主导航"><a href="index.html#reader">阅读器</a><a href="index.html#ai">AI 功能</a><a href="index.html#study">学习计划</a><a href="index.html#listening">听书</a><a href="feedback.html">问题反馈</a></nav></div></header>
   <main id="main" class="document wrap">
-    <header class="document-heading"><p class="eyebrow">从自己的书开始</p><h1>用户说明</h1><p>这份说明对应当前开发版本。它不代表已发布版本的功能承诺，公开获取方式将在确认后公布。</p></header>
-    <div class="document-layout"><aside class="contents" aria-label="本页目录"><strong>本页内容</strong><a href="#start">开始阅读</a><a href="#records">笔记与批注</a><a href="#translation">翻译与听书</a><a href="#ai">AI 与联网</a><a href="#study">独立阅读与系统学习</a><a href="#help">获取帮助</a></aside><div class="prose">
-      <section id="start"><h2>01 · 先把书带进来</h2><p>准备一本你有权使用的书。在书库中选择导入入口，选取文件后打开阅读。当前实现支持 EPUB、PDF、TXT 等格式，具体排版与内容可提取情况取决于文件。</p><p>导入后可以直接阅读，不要求先分析整本书或配置 AI。退出后再次打开，可以继续已保存的阅读位置。你也可以用书库文件夹整理自己的书。</p><p>在阅读设置中调整字号、具体字体、主题及阅读外观。原版 PDF 与固定版式内容保留原页字体和版式；自定义正文颜色不改写这些原页。</p></section>
-      <section id="records"><h2>02 · 留下阅读里的想法</h2><p>为阅读位置添加书签；选中具体内容后，可以做高亮、划线、圈注或侧边线，并附上自己的文字。</p><p>每条批注保存当时的样式。修改样式预设不会改写旧批注。笔记可以记录自己的理解，再通过统一记录回看相关笔记、批注与 AI 交互。</p></section>
-      <section id="translation"><h2>03 · 双语阅读，或接着听</h2><p>配置模型服务后，可以按需开启双语阅读。原文与译文逐句衔接，便于来回核对；译文是辅助理解的内容，仍应以原书为依据。</p><p>连续朗读从当前阅读位置开始，并可跨章继续。朗读来源包括系统语音、本地声音包及在线服务；可用声音与联网情况取决于你的选择。</p><p>播报模式提供播放控制、章节跳转与定时关闭。连续朗读的定时关闭与阅读器的延迟熄屏是分别设置的功能。</p></section>
-      <section id="ai"><h2>04 · 按需使用 AI</h2><p>在设置中配置自己选择的模型服务，并决定要启用哪些 AI 功能。随读问答可以围绕当前内容解释难点、整理思路；普通阅读与批注不要求先配置模型。</p><div class="notice"><strong>先了解内容会发往哪里</strong><p>AI 会把完成请求所需的相关内容发送给你选定的模型服务；部分朗读方式也连接在线服务。同步等可选功能另有连接与数据传输。使用前请确认服务规则、内容权限与自己的选择。这段说明不替代正式隐私政策或第三方服务条款。</p></div><p>不要把 API Key、Token 或密码写入笔记、公开反馈或截图。模型输出可能有误；涉及原书的解释应回到原文核对。</p></section>
-      <section id="study"><h2>05 · 找到自己的学习节奏</h2><p>独立阅读适合按自己的节奏读书。想进行系统学习时，可以主动进入分析与学习设置，确认目标与偏好，再生成学习安排。</p><p>系统学习保留整体学习阶段，但按本机自然日生成当天的安排，并结合已经保存的完成情况继续。未完成的安排不会被当作已经学习，也不会自动堆成今天的欠账。</p><p>理解自检、练习与普通笔记承担不同作用；保存笔记本身不代表已经完成理解检查。</p></section>
-      <section id="help"><h2>06 · 获取帮助</h2><p>目前尚无经核验的公开下载地址或公开版本更新记录。后续会在产品仓库确认获取方式与版本信息。</p><p>遇到操作问题，先看<a href="feedback.html">反馈说明</a>，再选择问题报告、功能建议或使用咨询。提交反馈需要 GitHub 账号；查看官网与已有公开反馈无需登录。</p><a class="button primary" href="feedback.html">选择反馈类型 <span aria-hidden="true">→</span></a></section>
+    <header class="document-heading"><p class="eyebrow">页芽 Yeya</p><h1>用户说明</h1><p>从导入一本书开始，了解阅读、AI 和学习功能怎么配合使用。这份说明对应当前开发版本，公开获取方式将在确认后公布。</p></header>
+    <div class="document-layout"><aside class="contents" aria-label="本页目录"><strong>本页内容</strong><a href="#start">书籍导入与书库</a><a href="#reader">阅读外观</a><a href="#records">书签、批注与记录</a><a href="#ai">AI 设置与功能模块</a><a href="#translation">双语阅读</a><a href="#listening">听书与语音市场</a><a href="#study">学习计划</a><a href="#data">数据与联网</a><a href="#help">获取帮助</a></aside><div class="prose">
+      <section id="start"><h2>01 · 书籍导入与书库</h2><p>在书库选择导入，选取你有权使用的文件。也可以从其他 App 打开文件、通过局域网传书，或从已连接的网盘导入。支持 EPUB、PDF、TXT、Markdown、MOBI、AZW 和 AZW3；文件结构、加密或内容可提取情况会影响能否正常阅读。</p><p>导入后可以直接打开原书，不要求先分析整本书。退出再进入，会恢复已保存的阅读位置。书库文件夹用于整理书籍，不移动原书文件；一本书只归属一个文件夹。</p><p>网盘与 WebDAV 连接分别管理。选择服务并完成其要求的认证后浏览目录、下载导入；各账号的连接和凭据相互独立。</p></section>
+      <section id="reader"><h2>02 · 阅读外观</h2><p>在阅读器顶部打开阅读设置，调整字体、字号、主题及正文外观，选择适合自己的翻页或滚动方式。可重排的正文会采用这些设置；原版 PDF 和固定版式页面保留自己的排版，不会被强行改成同一种字体。</p><p>通过目录跳转章节，或继续当前阅读位置。阅读时可以按需打开翻译、朗读和阅读问答，它们都围绕当前书籍内容使用。</p></section>
+      <section id="records"><h2>03 · 书签、批注与统一记录</h2><p>书签标记一个阅读位置，不要求选中文字。批注针对具体内容，可以选择高亮、划线、圈注或侧边线，并添加自己的说明。</p><p>高亮包括平直、手绘荧光笔、水彩、蜡笔、胶囊与渐变等样式；划线可以使用直线、波浪线、双横线、点线、虚线、铅笔线或钢笔线。每条批注保存自己的实际样式，后续修改预设不会改写旧批注。</p><p>在统一记录中回看笔记、批注、AI 交互和理解检查，使用筛选找到相关内容，再跳回出处。AI 整理模块可以检索和归纳已保存的记录，并保留来源；保存笔记本身不表示已经完成理解检查。</p><p>需要分享时，从记录选取内容，在本机编辑分享草稿并导出图片。分享文字的修改不写回原笔记；导出后由你决定是否通过系统分享。</p></section>
+      <section id="ai"><h2>04 · AI 设置与功能模块</h2><p>先在设置里选择模型服务，填写自己的 API Key 和模型，再测试连接。AI 总开关及每个功能模块都可以分别控制。普通阅读、书签与批注不依赖模型配置。</p><table><thead><tr><th>模块</th><th>能做什么</th></tr></thead><tbody>
+        <tr><td>阅读问答</td><td>解释选中文字，围绕当前章节提问、追问，回到原文核对依据。</td></tr>
+        <tr><td>双语阅读与翻译</td><td>生成原文下的逐句译文，复核译文，按需提前翻译下一章。</td></tr>
+        <tr><td>导读与章节总结</td><td>读前提出重点与问题，读后回顾章节内容。</td></tr>
+        <tr><td>书籍分析与学习计划</td><td>分析书籍，提出阅读策略，确认偏好后生成与调整学习安排。</td></tr>
+        <tr><td>理解自检与练习</td><td>生成问题，提供理解检查、练习、批改与反馈。</td></tr>
+        <tr><td>书库助手</td><td>查找自己的书，提出文件夹整理方案，由你审核应用。</td></tr>
+        <tr><td>统一记录整理</td><td>检索与归纳已经保存的记录，整理成新的笔记。</td></tr>
+        <tr><td>昨日总结</td><td>回顾昨天实际显示过的原文与保存的阅读记录。</td></tr>
+        <tr><td>今日发现</td><td>从真实搜索结果中选一篇与阅读有关的外部文章。</td></tr>
+        <tr><td>扫描页面识别</td><td>按需使用视觉模型辅助页面识别，默认关闭。</td></tr>
+      </tbody></table><p>每本书的导读、自检与练习还受本书的学习设置控制。模型输出可能有误，涉及原书的解释请回到原文核对。联网搜索结果是外部资料，不代替书中的依据。</p></section>
+      <section id="translation"><h2>05 · 双语阅读</h2><p>配置模型后，在阅读器选择翻译设置与目标语言。译文逐句显示在原文下面，仍然沿着原书阅读。可以调整译文偏好，也可让下一章提前翻译；译文辅助理解，原书仍是核对的依据。</p><p>对于 PDF，正文提取与页面识别的质量会影响翻译效果。页面文字不确定时会提示识别可能有误；启用视觉辅助需要支持图片的模型及对应设置。</p></section>
+      <section id="listening"><h2>06 · 听书与语音市场</h2><p>在阅读器打开播报模式，从当前阅读位置开始连续朗读。可以播放、暂停、快进一句、切换章节、调整语速与发音人。收起播报页或退出阅读器后，播放仍由 App 持有；锁屏控制可以切换章节。</p><h3>选择声音来源</h3><ul><li><strong>系统语音：</strong>使用设备提供的发音人，无需配置语音 API，声音可用情况取决于设备安装内容。</li><li><strong>离线声音包：</strong>在语音市场按需下载，完成后在本机合成。支持 Kokoro、VITS、Matcha、Kitten 等家族；也能导入完整的自定义清单，一个模型文件地址不能代替全部依赖。</li><li><strong>在线语音服务：</strong>需要联网。语音市场提供供应商接入、凭据配置、连接测试与声音试听。</li></ul><p>当前内置接入包括 Edge、Azure、ElevenLabs、Fish Audio、OpenAI 兼容语音接口、阿里云百炼、腾讯云、火山引擎、MiniMax、Deepgram、Amazon Polly、Google Cloud、智谱、百度和讯飞。每家的授权、可用地区、声音和计费方式不同，以服务自己的要求为准。Edge 朗读不要求单独填写 Key，但仍是在线服务。</p><h3>定时关闭与失败处理</h3><p>定时关闭提供 15、30、60 分钟和自定义时长。到期停止声音并保留当前句与阅读位置，之后可以继续；手动暂停不顺延计时。阅读器的延迟熄屏与听书定时关闭分别设置。</p><p>选定声音不可用时，可按条件从在线切换到本地或系统语音；界面会说明实际正在使用的声音。App 进程被终止后的持续播报不作保证。</p></section>
+      <section id="study"><h2>07 · 独立阅读与系统学习</h2><p>只想读书时，直接打开原书。独立阅读可以使用翻译、问答和章节总结，也可以为阅读进度安排节奏；不要求走完整的学习流程。</p><p>希望系统学习时，进入书籍分析与学习设置，确认学习目标、每天可用时间和偏好。书籍分析结果会提出建议，最终采用的学习方式由你确认。</p><ol><li><strong>分析与确认：</strong>了解书籍内容，确定目标与学习范围。</li><li><strong>生成今日安排：</strong>保留整体学习阶段，根据原书顺序、时间预算和真实完成情况安排今天。</li><li><strong>导读与原文：</strong>带着问题阅读，使用翻译、批注、问答和朗读辅助。</li><li><strong>理解检查与练习：</strong>完整范围读完后检查理解，按本书设置进行自检或练习，并查看反馈。</li><li><strong>复习与调整：</strong>保存学习结果，安排需要回看的内容，后续计划参考已保存的理解情况。</li></ol><p>系统学习只生成当天的安排。同一天可以继续当前安排，下一自然日再生成新的今日计划。未完成内容不算已经消耗或掌握，也不会机械堆成今天的逾期欠账。生成失败时保留已有计划，可以重试。</p></section>
+      <section id="data"><h2>08 · 数据与联网</h2><p>导入的书、阅读位置与记录保存在本机。AI 功能会把完成请求所需的相关内容发送给你选择的模型服务；在线朗读会连接语音服务，今日发现会使用外部搜索。网盘导入与可选的数据同步另有连接和传输。</p><div class="notice"><strong>使用前，先确认自己的选择。</strong><p>核对服务规则、书籍内容权限和启用的功能。不要把 API Key、密码或 Token 写进笔记、截图或公开反馈。这里的功能说明不代替正式隐私政策或第三方服务条款。</p></div><p>主屏幕小组件读取本机导出的阅读和记录展示数据，不发起 AI 请求。</p></section>
+      <section id="help"><h2>09 · 获取帮助</h2><p>目前没有经核验的公开下载地址和正式版本公告。确认后的获取方式与更新会发布到<a href="https://github.com/Yeya-dev/yeya">官方公开产品仓库</a>。</p><p>遇到问题，查看<a href="feedback.html">反馈说明</a>，选择报告问题、功能建议或使用咨询。提交 Issue 需要 GitHub 账号；浏览官网与已有公开反馈无需登录。</p><a class="button primary" href="feedback.html">选择反馈类型 <span aria-hidden="true">→</span></a></section>
     </div></div>
   </main>
-  <footer class="site-footer wrap"><span>页芽 Yeya · 让每一页，长成你的知识。</span><div><a href="index.html">产品介绍</a><a href="feedback.html">问题反馈</a><a href="https://github.com/Yeya-dev/yeya">公开产品仓库</a></div></footer>
+  <footer class="site-footer wrap"><div class="footer-brand"><strong>页芽 Yeya</strong><span>阅读、听书与系统学习</span></div><div><a href="index.html">产品介绍</a><a href="feedback.html">问题反馈</a><a href="https://github.com/Yeya-dev/yeya">公开产品仓库</a></div></footer>
 </body>
 </html>
