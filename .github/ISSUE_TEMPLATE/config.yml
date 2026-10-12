@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 产品介绍与用户说明
+    url: https://github.com/Yeya-dev/yeya/blob/main/README.md
+    about: 先了解当前开发版本与常见使用方法，再选择反馈类型。
