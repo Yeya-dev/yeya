@@ -45,7 +45,7 @@ if (tabs.length) {
         const button = showcase.querySelector('.screen-button');
         const image = button.querySelector('img');
         image.src = tab.dataset.aiImage;
-        image.alt = '页芽 ' + tab.dataset.aiTitle + '开发版真实界面';
+        image.alt = '叶芽 ' + tab.dataset.aiTitle + '开发版真实界面';
         button.dataset.screen = tab.dataset.aiImage;
         button.dataset.caption = tab.dataset.aiTitle + ' · ' + tab.dataset.aiNote;
         button.setAttribute('aria-label', '放大' + tab.dataset.aiTitle + '截图');

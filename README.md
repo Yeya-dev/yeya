@@ -1,8 +1,8 @@
-# 页芽 / Yeya
+# 叶芽 / Yeya
 
-页芽是一款 iOS 阅读 App，从自己的书开始，提供阅读、双语翻译、听书、AI 问答与系统学习。
+叶芽是一款 iOS 阅读 App，从自己的书开始，提供阅读、双语翻译、听书、AI 问答与系统学习。
 
-这里是页芽 Yeya 的官方公开仓库，用于产品介绍、使用说明、问题反馈与更新公告。应用源码不在本仓库中公开。
+这里是叶芽 Yeya 的官方公开仓库，用于产品介绍、使用说明、问题反馈与更新公告。应用源码不在本仓库中公开。
 
 [查看官网](https://yeya-dev.github.io/yeya/) · [用户说明](https://yeya-dev.github.io/yeya/guide.html) · [问题反馈](https://github.com/Yeya-dev/yeya/issues/new/choose)
 
