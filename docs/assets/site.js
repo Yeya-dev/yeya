@@ -22,53 +22,22 @@ if (menuButton && navigation) {
   });
 }
 
-const tabs = Array.from(document.querySelectorAll('[data-tab]'));
-if (tabs.length) {
-  tabs[0].parentElement.setAttribute('role', 'tablist');
-  tabs.forEach((tab, index) => {
-    const panel = document.getElementById(tab.dataset.tab);
-    tab.id = 'tab-' + tab.dataset.tab;
-    tab.setAttribute('role', 'tab');
-    tab.setAttribute('aria-controls', panel.id);
-    panel.setAttribute('role', 'tabpanel');
-    panel.setAttribute('aria-labelledby', tab.id);
-    panel.tabIndex = 0;
-    const activate = () => {
-      tabs.forEach((item) => {
-        const active = item === tab;
-        item.setAttribute('aria-selected', String(active));
-        item.tabIndex = active ? 0 : -1;
-        document.getElementById(item.dataset.tab).hidden = !active;
-      });
-      const showcase = document.querySelector('.ai-screen');
-      if (showcase && tab.dataset.aiImage) {
-        const button = showcase.querySelector('.screen-button');
-        const image = button.querySelector('img');
-        image.src = tab.dataset.aiImage;
-        image.alt = '叶芽 ' + tab.dataset.aiTitle + '开发版真实界面';
-        button.dataset.screen = tab.dataset.aiImage;
-        button.dataset.caption = tab.dataset.aiTitle + ' · ' + tab.dataset.aiNote;
-        button.setAttribute('aria-label', '放大' + tab.dataset.aiTitle + '截图');
-        showcase.querySelector('[data-ai-title]').textContent = tab.dataset.aiTitle;
-        showcase.querySelector('[data-ai-note]').textContent = tab.dataset.aiNote;
-      }
-    };
-    tab.addEventListener('click', activate);
-    tab.addEventListener('keydown', (event) => {
-      const offsets = { ArrowRight: 1, ArrowLeft: -1 };
-      let next = null;
-      if (event.key in offsets) next = (index + offsets[event.key] + tabs.length) % tabs.length;
-      if (event.key === 'Home') next = 0;
-      if (event.key === 'End') next = tabs.length - 1;
-      if (next !== null) {
-        event.preventDefault();
-        tabs[next].click();
-        tabs[next].focus();
-      }
+const aiFilters = Array.from(document.querySelectorAll('[data-ai-filter]'));
+const aiCards = Array.from(document.querySelectorAll('[data-ai-category]'));
+aiFilters.forEach((button) => {
+  button.addEventListener('click', () => {
+    const category = button.dataset.aiFilter;
+    aiFilters.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
+    aiCards.forEach((card) => {
+      card.hidden = category !== 'all' && card.dataset.aiCategory !== category;
     });
-    if (index === 0) activate();
+    const count = aiCards.filter((card) => !card.hidden).length;
+    const status = document.querySelector('.filter-count');
+    if (status) status.textContent = category === 'all'
+      ? `显示全部 ${count} 个 AI 模块`
+      : `${button.textContent}：${count} 个 AI 模块`;
   });
-}
+});
 
 const screenshotDialog = document.querySelector('.screenshot-dialog');
 if (screenshotDialog) {
