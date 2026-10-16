@@ -1,0 +1,39 @@
+.video-document { padding-top:60px; }
+.video-intro { max-width:810px; padding-bottom:58px; }
+.video-intro h1 { margin-top:20px; font-size:clamp(38px,5vw,60px); }
+.video-intro > p:not(.eyebrow) { max-width:690px; margin-top:22px; color:var(--muted); }
+.video-intro .video-status { font-size:12px; color:var(--green); }
+.language-jump { margin-top:26px; display:flex; flex-wrap:wrap; gap:12px; }
+.video-language { border-top:1px solid var(--line); padding-block:36px 52px; }
+.video-section-heading { display:flex; align-items:baseline; flex-wrap:wrap; gap:12px 30px; margin-bottom:28px; }
+.video-section-heading h2 { font-size:32px; }
+.video-section-heading p { color:var(--muted); font-size:14px; }
+.video-grid { display:grid; grid-template-columns:minmax(0,1.8fr) minmax(0,1fr); gap:36px; align-items:start; }
+.video-card { min-width:0; }
+.video-card-heading { display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:5px 14px; margin-bottom:14px; }
+.video-card-heading h3 { font-size:17px; }
+.video-card-heading span { color:var(--muted); font-size:11px; }
+.video-card video { display:block; width:100%; height:auto; background:#20362a; border:1px solid #a9b7a4; border-radius:10px; }
+.landscape-video { aspect-ratio:16 / 9; }
+.portrait-video { aspect-ratio:9 / 16; max-width:290px; }
+.video-download { display:inline-flex; align-items:center; gap:18px; min-height:44px; margin-top:12px; color:var(--strong); font-size:13px; }
+.video-text-downloads { display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 26px; margin-top:30px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; }
+.video-text-downloads span { color:var(--muted); font-size:12px; }
+.video-text-downloads a { min-height:44px; display:inline-flex; align-items:center; color:var(--strong); }
+.video-footnote { max-width:850px; color:var(--muted); font-size:12px; }
+.video-footnote p + p { margin-top:10px; }
+@media (max-width:760px) {
+  .video-document { padding-top:36px; }
+  .video-intro { padding-bottom:38px; }
+  .video-intro > p:not(.eyebrow) { font-size:15px; margin-top:18px; }
+  .video-intro .video-status { font-size:11px; }
+  .video-grid { grid-template-columns:minmax(0,1fr); gap:30px; }
+  .video-section-heading { gap:8px; margin-bottom:22px; }
+  .video-section-heading h2 { width:100%; font-size:28px; }
+  .video-section-heading p { font-size:13px; }
+  .portrait-card { max-width:360px; }
+  .portrait-video { max-width:290px; }
+  .video-text-downloads { gap:0 22px; margin-top:24px; }
+  .video-text-downloads span { width:100%; }
+  .video-language { padding-block:28px 36px; }
+}

@@ -1,0 +1,93 @@
+Yeya promotional video English script
+
+01 Yeya reader
+
+Yeya is a reader for books you import yourself. Adjust the page to suit you, make notes, or carry on listening.
+
+02 Import your own books
+
+Import EPUB, PDF, text, Markdown, or supported Kindle files. Use Files, send books over Wi-Fi, or connect a cloud drive or WebDAV.
+
+03 Adjust the page
+
+Choose the font, size, spacing, and background you prefer. You can turn pages or scroll, depending on how you like to read.
+
+04 Annotate as you read
+
+Mark a sentence with a highlight, underline, or circle, and add a note. Open that record later to return to the passage.
+
+05 Listen from where you stopped
+
+When you want a break from the screen, open the player and listen from your current place. It carries on into the next chapter.
+
+06 Three sources for voices
+
+Choose a voice from your device, install an offline voice pack, or connect an online speech service.
+
+07 Offline voice packs
+
+Kokoro and VITS are among the adapted offline voice packs. Download from ModelScope or Hugging Face, then listen without a connection.
+
+08 Online speech services
+
+Online options include Edge, OpenAI, MiniMax, Doubao, and Azure. You can also configure a compatible custom endpoint.
+
+09 Speed and sleep timer
+
+Change the speed or voice, and set a sleep timer when you need one. Playback continues with the player closed or the screen locked.
+
+10 Translation beneath the original
+
+Turn on bilingual reading for a book in another language. The translation appears beneath the original, so you can compare a sentence while you read.
+
+11 Ask about what you're reading
+
+Ask about a sentence you don't understand. Follow up on the explanation, request a more natural translation, or change how a term is worded.
+
+12 "Make the text larger"
+
+Tell the AI you want larger text, more space between lines, or a warmer background. It changes the reader settings and reports what changed.
+
+13 "Underline this sentence"
+
+Ask the AI to underline a sentence in the book, like the green wavy line here. You can change the style or color, or add a note.
+
+14 Organize your library
+
+For a growing library, ask the AI for a folder plan. Check where each book would go, edit the folder names, and apply the plan.
+
+15 Find a passage or note
+
+If you only remember part of something, ask the AI to find it. It can look for a book, a passage, or a saved annotation or note.
+
+16 Summarize your reading records
+
+Your records keep annotations, notes, and AI conversations together. Ask for a summary of one topic and save it as a note, with links to its sources.
+
+17 Change settings by asking
+
+Ask for a daily reading goal of thirty minutes, or tell the AI how to set your reminders. It changes settings directly and opens fields you need to fill in yourself.
+
+18 Choose how to read each book
+
+Each book can have a different goal. Read a novel for pleasure, study a practical book to use its ideas, or prepare for an exam. Tell the AI what you want.
+
+19 Plan reading and study
+
+The AI uses your goal and daily available time to plan reading or study. The Today page shows what to work on and the estimated time.
+
+20 Work through a difficult idea
+
+For a difficult idea, ask for another explanation or an example. Try explaining it in your own words, then use the feedback to see what you missed.
+
+21 Check your understanding
+
+Exercises let you check what you understood. Read the feedback after answering, and return to the supporting passage in the book when you need another look.
+
+22 Review and quizzes
+
+Review what you have studied, or take a quiz. The AI uses your saved answers and understanding checks to help you decide what to revisit.
+
+23 Yeya
+
+Yeya. Open a book and pick up where you left off.

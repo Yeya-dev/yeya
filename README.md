@@ -4,7 +4,7 @@
 
 这里是叶芽 Yeya 的官方公开仓库，用于产品介绍、使用说明、问题反馈与更新公告。应用源码不在本仓库中公开。
 
-[查看官网](https://yeya-dev.github.io/yeya/) · [用户说明](https://yeya-dev.github.io/yeya/guide.html) · [问题反馈](https://github.com/Yeya-dev/yeya/issues/new/choose)
+[查看官网](https://yeya-dev.github.io/yeya/) · [功能演示视频](https://yeya-dev.github.io/yeya/videos.html) · [用户说明](https://yeya-dev.github.io/yeya/guide.html) · [问题反馈](https://github.com/Yeya-dev/yeya/issues/new/choose)
 
 ## 当前状态
 
