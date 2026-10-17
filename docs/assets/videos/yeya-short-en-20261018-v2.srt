@@ -1,0 +1,35 @@
+﻿1
+00:00:01,780 --> 00:00:04,922
+Import your books. Start reading.
+
+2
+00:00:05,322 --> 00:00:07,672
+Switch to audio, and keep going.
+
+3
+00:00:08,072 --> 00:00:10,672
+Read the original and translation together.
+
+4
+00:00:11,072 --> 00:00:14,755
+Ask AI to enlarge text or mark a sentence.
+
+5
+00:00:15,155 --> 00:00:17,505
+Let it organize your library and notes.
+
+6
+00:00:17,905 --> 00:00:20,642
+Follow a plan. Practice,
+
+7
+00:00:20,642 --> 00:00:21,672
+then review.
+
+8
+00:00:22,072 --> 00:00:24,534
+Yeya. Between the lines,
+
+9
+00:00:24,534 --> 00:00:26,880
+grow at your own pace.
