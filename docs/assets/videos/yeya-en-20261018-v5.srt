@@ -1,0 +1,307 @@
+﻿1
+00:00:00,280 --> 00:00:03,880
+Yeya, growing between the lines.
+
+2
+00:00:04,280 --> 00:00:07,680
+Yeya is a reader for books you import yourself.
+
+3
+00:00:07,680 --> 00:00:09,330
+Adjust the page to suit you,
+
+4
+00:00:09,330 --> 00:00:12,672
+make notes, or carry on listening.
+
+5
+00:00:13,072 --> 00:00:15,909
+Import EPUB, PDF, text,
+
+6
+00:00:15,909 --> 00:00:19,097
+Markdown, or supported Kindle files.
+
+7
+00:00:19,097 --> 00:00:21,572
+Use Files, send books over Wi-Fi,
+
+8
+00:00:21,572 --> 00:00:25,172
+or connect a cloud drive or WebDAV.
+
+9
+00:00:25,572 --> 00:00:27,997
+Choose the font, size, spacing,
+
+10
+00:00:27,997 --> 00:00:30,172
+and background you prefer.
+
+11
+00:00:30,172 --> 00:00:32,072
+You can turn pages or scroll,
+
+12
+00:00:32,072 --> 00:00:35,130
+depending on how you like to read.
+
+13
+00:00:35,530 --> 00:00:37,280
+Mark a sentence with a highlight,
+
+14
+00:00:37,280 --> 00:00:40,630
+underline, or circle, and add a note.
+
+15
+00:00:40,630 --> 00:00:44,547
+Open that record later to return to the passage.
+
+16
+00:00:44,947 --> 00:00:46,684
+When you want a break from the screen,
+
+17
+00:00:46,684 --> 00:00:49,972
+open the player and listen from your current place.
+
+18
+00:00:49,972 --> 00:00:53,297
+It carries on into the next chapter.
+
+19
+00:00:53,697 --> 00:00:55,359
+Choose a voice from your device,
+
+20
+00:00:55,359 --> 00:00:57,159
+install an offline voice pack,
+
+21
+00:00:57,159 --> 00:01:00,588
+or connect an online speech service.
+
+22
+00:01:00,988 --> 00:01:05,601
+Kokoro and VITS are among the adapted offline voice packs.
+
+23
+00:01:05,601 --> 00:01:07,988
+Download from ModelScope or Hugging Face,
+
+24
+00:01:07,988 --> 00:01:10,963
+then listen without a connection.
+
+25
+00:01:11,363 --> 00:01:13,126
+Online options include Edge,
+
+26
+00:01:13,126 --> 00:01:15,363
+OpenAI, MiniMax, Doubao,
+
+27
+00:01:15,363 --> 00:01:21,172
+and Azure. You can also configure a compatible custom endpoint.
+
+28
+00:01:21,572 --> 00:01:23,172
+Change the speed or voice,
+
+29
+00:01:23,172 --> 00:01:25,997
+and set a sleep timer when you need one.
+
+30
+00:01:25,997 --> 00:01:30,588
+Playback continues with the player closed or the screen locked.
+
+31
+00:01:30,988 --> 00:01:34,688
+Turn on bilingual reading for a book in another language.
+
+32
+00:01:34,688 --> 00:01:37,151
+The translation appears beneath the original,
+
+33
+00:01:37,151 --> 00:01:40,672
+so you can compare a sentence while you read.
+
+34
+00:01:41,072 --> 00:01:43,997
+Ask about a sentence you don't understand.
+
+35
+00:01:43,997 --> 00:01:45,734
+Follow up on the explanation,
+
+36
+00:01:45,734 --> 00:01:47,834
+request a more natural translation,
+
+37
+00:01:47,834 --> 00:01:50,838
+or change how a term is worded.
+
+38
+00:01:51,238 --> 00:01:53,263
+Tell the AI you want larger text,
+
+39
+00:01:53,263 --> 00:01:54,888
+more space between lines,
+
+40
+00:01:54,888 --> 00:01:56,988
+or a warmer background.
+
+41
+00:01:56,988 --> 00:02:01,255
+It changes the reader settings and reports what changed.
+
+42
+00:02:01,655 --> 00:02:04,318
+Ask the AI to underline a sentence in the book,
+
+43
+00:02:04,318 --> 00:02:06,755
+like the green wavy line here.
+
+44
+00:02:06,755 --> 00:02:08,705
+You can change the style or color,
+
+45
+00:02:08,705 --> 00:02:10,963
+or add a note.
+
+46
+00:02:11,363 --> 00:02:15,376
+For a growing library, ask the AI for a folder plan.
+
+47
+00:02:15,376 --> 00:02:17,038
+Check where each book would go,
+
+48
+00:02:17,038 --> 00:02:20,838
+edit the folder names, and apply the plan.
+
+49
+00:02:21,238 --> 00:02:23,226
+If you only remember part of something,
+
+50
+00:02:23,226 --> 00:02:26,688
+ask the AI to find it. It can look for a book,
+
+51
+00:02:26,688 --> 00:02:30,672
+a passage, or a saved annotation or note.
+
+52
+00:02:31,072 --> 00:02:32,859
+Your records keep annotations,
+
+53
+00:02:32,859 --> 00:02:36,184
+notes, and AI conversations together.
+
+54
+00:02:36,184 --> 00:02:39,259
+Ask for a summary of one topic and save it as a note,
+
+55
+00:02:39,259 --> 00:02:42,130
+with links to its sources.
+
+56
+00:02:42,530 --> 00:02:45,068
+Ask for a daily reading goal of thirty minutes,
+
+57
+00:02:45,068 --> 00:02:48,168
+or tell the AI how to set your reminders.
+
+58
+00:02:48,168 --> 00:02:51,330
+It changes settings directly and opens fields you need to fill in
+
+59
+00:02:51,330 --> 00:02:53,380
+yourself.
+
+60
+00:02:53,780 --> 00:02:56,355
+Each book can have a different goal.
+
+61
+00:02:56,355 --> 00:02:57,993
+Read a novel for pleasure,
+
+62
+00:02:57,993 --> 00:03:00,430
+study a practical book to use its ideas,
+
+63
+00:03:00,430 --> 00:03:02,705
+or prepare for an exam.
+
+64
+00:03:02,705 --> 00:03:05,547
+Tell the AI what you want.
+
+65
+00:03:05,947 --> 00:03:09,447
+The AI uses your goal and daily available time to plan reading or
+
+66
+00:03:09,447 --> 00:03:15,380
+study. The Today page shows what to work on and the estimated time.
+
+67
+00:03:15,780 --> 00:03:20,580
+For a difficult idea, ask for another explanation or an example.
+
+68
+00:03:20,580 --> 00:03:22,718
+Try explaining it in your own words,
+
+69
+00:03:22,718 --> 00:03:26,297
+then use the feedback to see what you missed.
+
+70
+00:03:26,697 --> 00:03:29,872
+Exercises let you check what you understood.
+
+71
+00:03:29,872 --> 00:03:31,834
+Read the feedback after answering,
+
+72
+00:03:31,834 --> 00:03:34,384
+and return to the supporting passage in the book when you need
+
+73
+00:03:34,384 --> 00:03:36,505
+another look.
+
+74
+00:03:36,905 --> 00:03:38,343
+Review what you have studied,
+
+75
+00:03:38,343 --> 00:03:42,818
+or take a quiz. The AI uses your saved answers and understanding
+
+76
+00:03:42,818 --> 00:03:46,380
+checks to help you decide what to revisit.
+
+77
+00:03:46,780 --> 00:03:51,130
+Yeya, growing between the lines.
