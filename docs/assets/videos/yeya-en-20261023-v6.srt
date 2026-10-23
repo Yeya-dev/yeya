@@ -1,0 +1,347 @@
+﻿1
+00:00:00,280 --> 00:00:03,880
+Yeya, growing between the lines.
+
+2
+00:00:04,280 --> 00:00:07,680
+Yeya is a reader for books you import yourself.
+
+3
+00:00:07,680 --> 00:00:09,330
+Adjust the page to suit you,
+
+4
+00:00:09,330 --> 00:00:12,672
+make notes, or carry on listening.
+
+5
+00:00:13,072 --> 00:00:15,909
+Import EPUB, PDF, text,
+
+6
+00:00:15,909 --> 00:00:19,097
+Markdown, or supported Kindle files.
+
+7
+00:00:19,097 --> 00:00:21,572
+Use Files, send books over Wi-Fi,
+
+8
+00:00:21,572 --> 00:00:25,172
+or connect a cloud drive or WebDAV.
+
+9
+00:00:25,572 --> 00:00:27,997
+Choose the font, size, spacing,
+
+10
+00:00:27,997 --> 00:00:30,172
+and background you prefer.
+
+11
+00:00:30,172 --> 00:00:32,072
+You can turn pages or scroll,
+
+12
+00:00:32,072 --> 00:00:35,130
+depending on how you like to read.
+
+13
+00:00:35,530 --> 00:00:37,280
+Mark a sentence with a highlight,
+
+14
+00:00:37,280 --> 00:00:40,630
+underline, or circle, and add a note.
+
+15
+00:00:40,630 --> 00:00:44,547
+Open that record later to return to the passage.
+
+16
+00:00:44,947 --> 00:00:46,684
+When you want a break from the screen,
+
+17
+00:00:46,684 --> 00:00:49,972
+open the player and listen from your current place.
+
+18
+00:00:49,972 --> 00:00:53,297
+It carries on into the next chapter.
+
+19
+00:00:53,697 --> 00:00:55,359
+Choose a voice from your device,
+
+20
+00:00:55,359 --> 00:00:57,159
+install an offline voice pack,
+
+21
+00:00:57,159 --> 00:01:00,588
+or connect an online speech service.
+
+22
+00:01:00,988 --> 00:01:05,601
+Kokoro and VITS are among the adapted offline voice packs.
+
+23
+00:01:05,601 --> 00:01:07,988
+Download from ModelScope or Hugging Face,
+
+24
+00:01:07,988 --> 00:01:10,963
+then listen without a connection.
+
+25
+00:01:11,363 --> 00:01:13,126
+Online options include Edge,
+
+26
+00:01:13,126 --> 00:01:15,363
+OpenAI, MiniMax, Doubao,
+
+27
+00:01:15,363 --> 00:01:21,172
+and Azure. You can also configure a compatible custom endpoint.
+
+28
+00:01:21,572 --> 00:01:23,172
+Change the speed or voice,
+
+29
+00:01:23,172 --> 00:01:25,997
+and set a sleep timer when you need one.
+
+30
+00:01:25,997 --> 00:01:30,588
+Playback continues with the player closed or the screen locked.
+
+31
+00:01:30,988 --> 00:01:34,688
+Turn on bilingual reading for a book in another language.
+
+32
+00:01:34,688 --> 00:01:37,151
+The translation appears beneath the original,
+
+33
+00:01:37,151 --> 00:01:40,672
+so you can compare a sentence while you read.
+
+34
+00:01:41,072 --> 00:01:44,147
+Follow the people and places with two annotation strategies at
+
+35
+00:01:44,147 --> 00:01:47,459
+once. Names get a blue wavy underline;
+
+36
+00:01:47,459 --> 00:01:49,797
+places get a red circle.
+
+37
+00:01:49,797 --> 00:01:51,284
+As you pause on a page,
+
+38
+00:01:51,284 --> 00:02:00,672
+AI finds the matching text and draws each mark.
+
+39
+00:02:01,072 --> 00:02:03,572
+Turn on automatic key point annotations,
+
+40
+00:02:03,572 --> 00:02:05,922
+and AI looks for essential definitions,
+
+41
+00:02:05,922 --> 00:02:09,934
+conclusions, or qualifications on the current page.
+
+42
+00:02:09,934 --> 00:02:12,722
+It reviews its choices before marking the text,
+
+43
+00:02:12,722 --> 00:02:18,672
+then checks the new content as you turn the page.
+
+44
+00:02:19,072 --> 00:02:21,997
+Ask about a sentence you don't understand.
+
+45
+00:02:21,997 --> 00:02:23,734
+Follow up on the explanation,
+
+46
+00:02:23,734 --> 00:02:25,834
+request a more natural translation,
+
+47
+00:02:25,834 --> 00:02:28,838
+or change how a term is worded.
+
+48
+00:02:29,238 --> 00:02:31,263
+Tell the AI you want larger text,
+
+49
+00:02:31,263 --> 00:02:32,888
+more space between lines,
+
+50
+00:02:32,888 --> 00:02:34,988
+or a warmer background.
+
+51
+00:02:34,988 --> 00:02:39,255
+It changes the reader settings and reports what changed.
+
+52
+00:02:39,655 --> 00:02:42,317
+Ask the AI to underline a sentence in the book,
+
+53
+00:02:42,317 --> 00:02:44,755
+like the green wavy line here.
+
+54
+00:02:44,755 --> 00:02:46,705
+You can change the style or color,
+
+55
+00:02:46,705 --> 00:02:48,963
+or add a note.
+
+56
+00:02:49,363 --> 00:02:53,376
+For a growing library, ask the AI for a folder plan.
+
+57
+00:02:53,376 --> 00:02:55,038
+Check where each book would go,
+
+58
+00:02:55,038 --> 00:02:58,838
+edit the folder names, and apply the plan.
+
+59
+00:02:59,238 --> 00:03:01,226
+If you only remember part of something,
+
+60
+00:03:01,226 --> 00:03:04,688
+ask the AI to find it. It can look for a book,
+
+61
+00:03:04,688 --> 00:03:08,672
+a passage, or a saved annotation or note.
+
+62
+00:03:09,072 --> 00:03:10,859
+Your records keep annotations,
+
+63
+00:03:10,859 --> 00:03:14,184
+notes, and AI conversations together.
+
+64
+00:03:14,184 --> 00:03:17,259
+Ask for a summary of one topic and save it as a note,
+
+65
+00:03:17,259 --> 00:03:20,130
+with links to its sources.
+
+66
+00:03:20,530 --> 00:03:23,068
+Ask for a daily reading goal of thirty minutes,
+
+67
+00:03:23,068 --> 00:03:26,168
+or tell the AI how to set your reminders.
+
+68
+00:03:26,168 --> 00:03:29,330
+It changes settings directly and opens fields you need to fill in
+
+69
+00:03:29,330 --> 00:03:31,380
+yourself.
+
+70
+00:03:31,780 --> 00:03:34,355
+Each book can have a different goal.
+
+71
+00:03:34,355 --> 00:03:35,992
+Read a novel for pleasure,
+
+72
+00:03:35,992 --> 00:03:38,430
+study a practical book to use its ideas,
+
+73
+00:03:38,430 --> 00:03:40,705
+or prepare for an exam.
+
+74
+00:03:40,705 --> 00:03:43,547
+Tell the AI what you want.
+
+75
+00:03:43,947 --> 00:03:47,447
+The AI uses your goal and daily available time to plan reading or
+
+76
+00:03:47,447 --> 00:03:53,380
+study. The Today page shows what to work on and the estimated time.
+
+77
+00:03:53,780 --> 00:03:58,580
+For a difficult idea, ask for another explanation or an example.
+
+78
+00:03:58,580 --> 00:04:00,718
+Try explaining it in your own words,
+
+79
+00:04:00,718 --> 00:04:04,297
+then use the feedback to see what you missed.
+
+80
+00:04:04,697 --> 00:04:07,872
+Exercises let you check what you understood.
+
+81
+00:04:07,872 --> 00:04:09,834
+Read the feedback after answering,
+
+82
+00:04:09,834 --> 00:04:12,384
+and return to the supporting passage in the book when you need
+
+83
+00:04:12,384 --> 00:04:14,505
+another look.
+
+84
+00:04:14,905 --> 00:04:16,342
+Review what you have studied,
+
+85
+00:04:16,342 --> 00:04:20,818
+or take a quiz. The AI uses your saved answers and understanding
+
+86
+00:04:20,818 --> 00:04:24,380
+checks to help you decide what to revisit.
+
+87
+00:04:24,780 --> 00:04:29,130
+Yeya, growing between the lines.
