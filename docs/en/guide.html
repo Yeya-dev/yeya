@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#476d59">
+  <meta name="description" content="Import your first book, set up voices and bilingual reading, practice from the pages you read and move your library between devices.">
+  <title>User guide | Yeya</title>
+  <link rel="alternate" hreflang="zh-CN" href="https://yeya-dev.github.io/yeya/guide.html">
+  <link rel="alternate" hreflang="en" href="https://yeya-dev.github.io/yeya/en/guide.html">
+  <link rel="icon" href="../assets/yeya-icon.png" type="image/png">
+  <link rel="stylesheet" href="../assets/site.css?v=20261120">
+  <link rel="stylesheet" href="../assets/english.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="./" aria-label="Yeya home"><img src="../assets/yeya-logo.png" width="40" height="40" alt=""><span>Yeya</span></a>
+      <a class="language-link" href="../guide.html" hreflang="zh-CN" lang="zh-CN">简体中文</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span>Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
+      <nav id="main-nav" aria-label="Main navigation"><a href="./">Overview</a><a href="guide.html" aria-current="page">User guide</a><a href="videos.html">Videos</a><a href="feedback.html">Support</a></nav>
+    </div>
+  </header>
+<main id="main" class="document wrap">
+    <header class="document-heading">
+      <h1>User guide</h1>
+      <p>To start reading, import a book and open it from your library. You can set up narration, translation or reading practice whenever you need them.</p>
+    </header>
+    <div class="document-layout">
+      <aside class="contents" aria-label="On this page">
+        <strong>On this page</strong>
+        <a href="#start">Import a book</a><a href="#reader">Reader settings</a><a href="#records">Notes and annotations</a><a href="#ai">AI setup and questions</a><a href="#translation">Bilingual reading</a><a href="#listening">Narration and voices</a><a href="#study">Reading practice</a><a href="#data">Storage and sync</a><a href="#access">Trial and purchases</a>
+      </aside>
+      <div class="prose">
+        <section id="start">
+          <h2>Import a book</h2>
+          <p>Choose Import in the library and select a file you have permission to use. Yeya reads EPUB, PDF, TXT, Markdown, MOBI and AZW3 books, as well as CBZ and CBR comics. Open the book to start reading. Yeya saves your place when you leave.</p>
+          <p>For a printed book, photograph the pages and save them as a PDF. You can read those pages in their original layout and organize the text and images later.</p>
+        </section>
+        <section id="reader">
+          <h2>Adjust the reader</h2>
+          <p>Open the reader controls to change the type size, font, spacing or background for reflowable text. The bottom controls include the page-turn animation. PDFs can keep their printed layout, including illustrations and page numbers.</p>
+        </section>
+        <section id="records">
+          <h2>Take notes and annotate</h2>
+          <p>Select a passage to highlight, underline or circle it, add a mark in the margin, or write a note. Open your saved records to find the passage again alongside your comments and reading conversations.</p>
+          <p>To annotate with AI, describe what you want to look for, then confirm the matching rule and mark style. Yeya checks the text visible on the page. Review the reason for a mark or undo the last batch. Automatic key-point annotations have a separate switch for finding definitions, conclusions and qualifications.</p>
+        </section>
+        <section id="ai">
+          <h2>Connect an AI provider and ask a question</h2>
+          <p>In Settings, choose a compatible model provider, enter your own API key, select a model and test the connection. Enable the features you want to use and review the prompt for permission to send content to that provider.</p>
+          <p>In the reader, select the passage you want to discuss and ask a question. You can follow up in the same conversation. Open a source citation to check the answer against the book, or save the answer as a note.</p>
+          <details class="feature-catalog" id="features">
+            <summary>Browse the 16 AI features</summary>
+            <div class="ai-filters" role="group" aria-label="Filter AI features"><button type="button" data-ai-filter="all" aria-pressed="true">All features</button><button type="button" data-ai-filter="reading" aria-pressed="false">Reading and listening</button><button type="button" data-ai-filter="study" aria-pressed="false">Study</button><button type="button" data-ai-filter="organize" aria-pressed="false">Library and settings</button></div>
+            <p class="filter-count" aria-live="polite" data-all="Showing all {count} features" data-filtered="{label} · {count} features">Showing all 16 features</p>
+            <div class="ai-catalog">
+              <article class="ai-card" data-ai-category="reading"><h3>Reading questions</h3><p>Ask about a passage, follow up and check the cited text.</p></article>
+              <article class="ai-card" data-ai-category="reading"><h3>Reading companion</h3><p>Get an occasional recap when you return to a book or follow up on an earlier question.</p></article>
+              <article class="ai-card" data-ai-category="reading"><h3>Key-point annotations</h3><p>Mark definitions, conclusions and qualifications on the current page.</p></article>
+              <article class="ai-card" data-ai-category="reading"><h3>Custom annotation rules</h3><p>Describe the passages you want marked and choose a style for each rule.</p></article>
+              <article class="ai-card" data-ai-category="reading"><h3>Bilingual reading</h3><p>Read a translation beneath each sentence or translate the next chapter in advance.</p></article>
+              <article class="ai-card" data-ai-category="reading"><h3>Guides and chapter summaries</h3><p>Preview a chapter’s main ideas or revisit them after reading.</p></article>
+              <article class="ai-card" data-ai-category="study"><h3>Book analysis</h3><p>Get a reading approach suited to the book before choosing Reading or Study.</p></article>
+              <article class="ai-card" data-ai-category="study"><h3>Self-checks and practice</h3><p>Answer questions about passages you’ve read and review the feedback.</p></article>
+              <article class="ai-card" data-ai-category="organize"><h3>Library assistant</h3><p>Find a book or review suggested folder assignments before applying them.</p></article>
+              <article class="ai-card" data-ai-category="organize"><h3>Reading records</h3><p>Look up saved notes, annotations or conversations and bring related records into a new note.</p></article>
+              <article class="ai-card" data-ai-category="organize"><h3>Smart settings</h3><p>Describe a setting you want to change, or ask about your AI usage.</p></article>
+              <article class="ai-card" data-ai-category="organize"><h3>Yesterday’s reading</h3><p>Revisit the passages you saw yesterday and the notes you saved.</p></article>
+              <article class="ai-card" data-ai-category="organize"><h3>Today’s discovery</h3><p>Find an external article related to your reading and open its source.</p></article>
+              <article class="ai-card" data-ai-category="organize"><h3>Reading memory</h3><p>Let Yeya remember preferences for future explanations. You can turn this off or clear it.</p></article>
+              <article class="ai-card" data-ai-category="reading"><h3>Scanned page recognition</h3><p>Allow a compatible vision model to help read a scan. Sending a page image requires separate permission.</p></article>
+              <article class="ai-card" data-ai-category="reading"><h3>Smart narration</h3><p>Use the surrounding text to help match dialogue to characters and guide delivery with compatible voices.</p></article>
+            </div>
+          </details>
+        </section>
+        <section id="translation">
+          <h2>Read in two languages</h2>
+          <p>Open translation settings in the reader, select a target language and choose bilingual reading. Each translated sentence appears below the original. You can also display just the translation or return to the original text.</p>
+          <p>Adjust the translated text’s size and opacity for the book you’re reading. A glossary lets you specify preferred translations for names or recurring terms. For PDFs, the quality of the extracted or recognized text affects the translation.</p>
+        </section>
+        <section id="listening">
+          <h2>Choose a voice and start listening</h2>
+          <p>Start narration at your reading position. Expand the narration panel to check your progress, change the speed or set a sleep timer. You can pause and resume from the Lock Screen. Continuous narration needs text Yeya can extract from the book.</p>
+          <ul>
+            <li><strong>System voices.</strong> Choose a voice installed on your device for free single-voice narration.</li>
+            <li><strong>Offline voices.</strong> Download and install a compatible voice package from the voice marketplace. It synthesizes speech on your device.</li>
+            <li><strong>Online voices.</strong> Configure a speech service in the voice marketplace and preview a voice. The service receives the text it reads and may charge for usage.</li>
+          </ul>
+          <p>For dialogue, preview voices for the narrator and each character, then change any assignments you want. Character profiles show relationships with supporting passages. Expressive delivery and reference recordings depend on the selected voice and model.</p>
+        </section>
+        <section id="study">
+          <h2>Practice from the pages you read</h2>
+          <p>Choose Reading or Study for each book. Both open the original text. In Study, set the interval for practice reminders. The app records which passages appeared as you read and uses them for practice.</p>
+          <p>Choose daily, weekly or monthly exercises to work from the corresponding reading record. Yesterday’s review brings back questions you already answered. If you stop halfway through, your generated questions, draft answers and passages still due for practice are available when you return.</p>
+        </section>
+        <section id="data">
+          <h2>Store and sync your library</h2>
+          <p>Books and reading records are stored on your device. To transfer them, configure iCloud, WebDAV or a supported cloud drive. Choose which categories to include and whether to upload from this device or download to it.</p>
+          <p>Set up API keys and download offline voices on each device. For details about what goes to a model or speech service and how to withdraw permission, read the <a href="../privacy.html#policy-en">privacy policy</a>.</p>
+        </section>
+        <section id="access">
+          <h2>Free reading, the trial and purchases</h2>
+          <p>Importing, basic reading, manual notes and annotations, viewing saved content and single-voice system narration are free. You can claim a 14-day trial in the app. The trial starts when you claim it and ends without an automatic charge.</p>
+          <p>An active trial, a one-time full unlock or an eligible earlier paid purchase gives you access to new AI content and advanced narration. That includes multiple character voices, expressive delivery, offline voice playback and online narration. Third-party AI and voice services bill separately.</p>
+          <p>When the trial ends, you can still read your books and saved material, including translations and study records, and save draft answers. Generating new exercises and submitting answers for grading require full access.</p>
+          <p>To restore a purchase on iPhone, iPad or Mac, sign in with the same Apple Account for Media &amp; Purchases and choose Restore Purchases in Yeya. Restore your library separately through sync. Changing devices does not restart the trial. Regional prices appear in the <a href="https://apps.apple.com/us/app/id6822345623">App Store</a>.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer wrap">
+    <a class="brand" href="./" aria-label="Yeya home"><img src="../assets/yeya-logo.png" width="32" height="32" alt=""><span>Yeya</span></a>
+    <div><a href="guide.html">User guide</a><a href="feedback.html">Support</a><a href="../privacy.html#policy-en">Privacy policy</a><a href="https://github.com/Yeya-dev/yeya/blob/main/README.en.md">GitHub</a></div>
+  </footer>
+</body>
+</html>

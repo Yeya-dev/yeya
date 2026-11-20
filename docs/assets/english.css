@@ -1,0 +1,29 @@
+/* The English headings use the site's Latin serif at a comfortable line length. */
+h1, h2, .brand span { font-family: Georgia, "Times New Roman", serif; }
+.hero { grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 75px); }
+.hero h1 { font-size: clamp(3rem, 5.1vw, 4.7rem); line-height: 1.05; letter-spacing: -.05em; margin-top: 18px; }
+.hero-lede { line-height: 1.65; max-width: 32rem; }
+.hero-details, .video-footnote { font-size: .875rem; }
+.store-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(8px, 1.4vw, 22px); align-items: start; }
+.store-pair .screen-button { overflow: hidden; border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 9px 22px #27382e12; }
+.store-pair .screen-button:nth-child(2) { margin-top: clamp(20px, 4vw, 56px); }
+.feature-spread { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 75px); align-items: center; border-top: 1px solid var(--line); }
+.feature-text h2, .reading-pair h2 { font-size: clamp(2rem, 3.4vw, 3rem); line-height: 1.15; margin-bottom: 1.25rem; }
+.feature-text h3 { margin-top: 1.65rem; margin-bottom: .4rem; }
+.feature-text p, .reading-pair p { max-width: 34rem; color: var(--muted); line-height: 1.7; }
+.reading-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(32px, 6vw, 82px); }
+.reading-pair p + p { margin-top: 1rem; }
+.faq-list details p, .prose p, .prose li, .document-heading > p:last-child, .feedback-options p { font-size: 1rem; }
+.site-footer div { flex-wrap: wrap; }
+.contents { font-size: .875rem; }
+.feature-catalog { margin-top: 1.5rem; }
+.feature-catalog summary { cursor: pointer; color: var(--strong); font-weight: 600; }
+.feature-catalog .ai-filters { margin-block: 1rem; }
+.feature-catalog .ai-catalog { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.feature-catalog .ai-card h3 { margin-top: 0; }
+.feature-catalog .ai-card p { margin-bottom: 0; font-size: .9375rem; }
+@media (max-width: 760px) {
+  .hero, .feature-spread, .reading-pair { grid-template-columns: minmax(0, 1fr); }
+  .hero h1 { font-size: clamp(2.65rem, 8.4vw, 3.7rem); }
+  .store-pair { width: min(100%, 440px); justify-self: center; }
+}

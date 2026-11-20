@@ -20,6 +20,7 @@ h3 { font-size:18px; font-weight:650; line-height:1.55; }
 .brand img { object-fit:contain; }
 .brand span { font-family:"Songti SC","STSong",Georgia,serif; font-size:27px; font-weight:600; letter-spacing:.025em; }
 .brand small { font-family:-apple-system,BlinkMacSystemFont,sans-serif; font-size:13px; font-weight:500; margin-left:8px; color:var(--muted); }
+.language-link { flex-shrink:0; margin-inline-end:auto; color:var(--strong); font-size:14px; text-underline-offset:4px; padding-block:10px; }
 nav { display:flex; align-items:center; flex-wrap:wrap; gap:28px; font-size:14px; }
 nav a { display:inline-flex; align-items:center; min-height:44px; text-decoration:none; padding-block:10px; }
 nav a[aria-current] { color:var(--green); font-weight:650; border-bottom:1px solid var(--green); }

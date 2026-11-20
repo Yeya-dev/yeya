@@ -33,9 +33,12 @@ aiFilters.forEach((button) => {
     });
     const count = aiCards.filter((card) => !card.hidden).length;
     const status = document.querySelector('.filter-count');
-    if (status) status.textContent = category === 'all'
-      ? `显示全部 ${count} 个 AI 模块`
-      : `${button.textContent}：${count} 个 AI 模块`;
+    if (status) {
+      const format = category === 'all'
+        ? status.dataset.all || '显示全部 {count} 个 AI 模块'
+        : status.dataset.filtered || '{label}：{count} 个 AI 模块';
+      status.textContent = format.replace('{count}', count).replace('{label}', button.textContent);
+    }
   });
 });
 
